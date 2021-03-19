@@ -1,3 +1,8 @@
+:root{
+    --sidebarColor: black;
+    --mainBox:black;
+}
+
 body{
     margin: 0;
 
@@ -20,9 +25,10 @@ body{
 
 .sidebar{
     grid-area: sidebar;
-
+    background: var(--sidebarColor);
 }
 
 .main{
     grid-area: main;
+    background: var(--mainColor);
 }
