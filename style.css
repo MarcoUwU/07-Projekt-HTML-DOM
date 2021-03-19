@@ -20,8 +20,8 @@
 
 body{
     margin: 0;
-    background-color: var(--light_background);
-    color: var(--light_text);
+    background-color: var(--background);
+    color: var(--text);
     font-family: 'Roboto', sans-serif;
 
 }
@@ -77,3 +77,4 @@ ul.options li{
 }
 
 
+<script>
