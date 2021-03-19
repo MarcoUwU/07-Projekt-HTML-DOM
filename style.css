@@ -1,13 +1,28 @@
+body{
+    margin: 0;
 
+}
 
+.nav{
+    height: 10vh;
 
+}
 .content{
     display: grid;
 
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: auto;
-    
+    grid-template-rows: 90vh;
+
     grid-template-areas: 
     "sidebar main"
     "sidebar main";
+}
+
+.sidebar{
+    grid-area: sidebar;
+
+}
+
+.main{
+    grid-area: main;
 }
