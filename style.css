@@ -1,6 +1,15 @@
 :root{
     --sidebarColor: black;
     --mainBoxColor:rgb(196, 101, 101);
+    --mainBox:black;
+
+    --dark_background: #474256;
+    --dark_border: #6D6090;
+    --dark_text: #E9E4F8;
+
+    --light_background: #E9E4F8;
+    --light_border: #6D6090;
+    --light_text: #474256;
 }
 
 body{
