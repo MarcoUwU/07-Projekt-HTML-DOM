@@ -10,6 +10,10 @@
     --light_background: #E9E4F8;
     --light_border: #6D6090;
     --light_text: #474256;
+
+    --background: #E9E4F8;
+    --border: #6D6090;
+    --text: #474256;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
