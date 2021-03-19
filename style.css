@@ -1,6 +1,6 @@
 :root{
     --sidebarColor: black;
-    --mainBox:black;
+    --mainBoxColor:rgb(196, 101, 101);
 }
 
 body{
@@ -31,10 +31,15 @@ body{
 
 .sidebar{
     grid-area: sidebar;
-    background: var(--sidebarColor);
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    row-gap: 30px;
 }
 
 .main{
     grid-area: main;
-    background: var(--mainColor);
 }
+
+
