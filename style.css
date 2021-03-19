@@ -3,6 +3,11 @@
 
 .content{
     display: grid;
-    grid-column: 1fr;
 
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+    
+    grid-template-areas: 
+    "sidebar main"
+    "sidebar main";
 }
