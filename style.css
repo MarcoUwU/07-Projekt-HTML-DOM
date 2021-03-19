@@ -12,14 +12,15 @@
     --light_text: #474256;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 body{
     margin: 0;
     background-color: var(--light_background);
     color: var(--light_text);
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
+
 }
-
-
 
 .title{
     margin-top: 10px;
