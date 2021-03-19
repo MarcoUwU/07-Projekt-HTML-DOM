@@ -14,18 +14,34 @@
 
 body{
     margin: 0;
-
+    background-color: var(--light_background);
 }
 
-.nav{
-    height: 20vh;
 
-}
+
 .title{
     margin-top: 10px;
     margin-left: 10px;
 
 }
+
+
+
+.nav{
+    height: 5vh;
+}
+
+ul.options{
+    list-style: none;
+}
+
+ul.options li{
+    float: left;
+    margin-left: 15%;
+}
+
+
+
 
 .content{
     display: grid;
@@ -36,6 +52,7 @@ body{
     grid-template-areas: 
     "sidebar main"
     "sidebar main";
+
 }
 
 .sidebar{
@@ -45,6 +62,7 @@ body{
     grid-template-rows: 1fr 1fr;
     justify-items: center;
     row-gap: 30px;
+
 }
 
 .main{
