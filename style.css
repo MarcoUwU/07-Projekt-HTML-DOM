@@ -54,15 +54,6 @@ body {
     justify-content: center;
 }
 
-ul.options {
-    list-style: none;
-}
-
-ul.options li {
-    float: left;
-    margin-left: 12%;
-
-}
 
 .navop1{
     grid-area: navop1;
