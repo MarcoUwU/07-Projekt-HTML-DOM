@@ -105,3 +105,13 @@ h1{
     text-align: center;
 }
     
+@media only screen and (max-width: 1510px) {
+
+    .navop{
+        margin-top: 10%;
+        padding: 10px 40px 10px 40px;
+    
+    }
+
+}
+
