@@ -4,14 +4,17 @@
     --mainBox:black;
 
     --dark_background: #474256;
+    --dark_background_hover: #E9E4F8;
     --dark_border: #6D6090;
     --dark_text: #E9E4F8;
 
     --light_background: #E9E4F8;
+    --light_background_hover: #d4cfe3;
     --light_border: #6D6090;
     --light_text: #474256;
 
     --background: #E9E4F8;
+    --background_hover: #d4cfe3;
     --border: #6D6090;
     --text: #474256;
 }
@@ -29,13 +32,17 @@ body{
 .title{
     margin-top: 10px;
     margin-left: 10px;
+    margin-bottom: 10px;
 
 }
 
 
 
 .nav{
-    height: 5vh;
+    height: 5vh; 
+    width: 100vw;
+    border-bottom: 1px solid var(--text);
+    border-top: 1px solid var(--text);
 }
 
 ul.options{
@@ -44,7 +51,18 @@ ul.options{
 
 ul.options li{
     float: left;
-    margin-left: 15%;
+    margin-left: 12%;
+
+}
+.navop{
+    margin-top: 10%;
+    padding: 16px 60px 15px 60px;
+
+}
+
+ul li a:hover{
+    background-color: var(--background_hover);
+   
 }
 
 
@@ -55,6 +73,7 @@ ul.options li{
 
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 80vh;
+
 
     grid-template-areas: 
     "sidebar main"
