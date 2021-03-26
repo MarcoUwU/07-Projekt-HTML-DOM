@@ -51,30 +51,28 @@ body {
     grid-template-areas: "filler1 navop1 navop2 navop3 navop4 filler2";
     height: 6vh;
 
-    justify-content: center;
+    align-items: center;
+    justify-items: center;
+
 }
 
 
 .navop1{
     grid-area: navop1;
-    text-align: center;
-
 }
 .navop2{
     grid-area: navop2;
-    text-align: center;
-
 }
 .navop3{
     grid-area: navop3;
-    text-align: center;
-
-
 }
 .navop4{
     grid-area: navop4;
-    text-align: center;
+}
 
+a:visited, a:link{
+    color: var(--text);
+    text-decoration: none;
 }
 
 a:hover{
