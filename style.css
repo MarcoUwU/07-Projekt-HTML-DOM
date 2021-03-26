@@ -1,7 +1,7 @@
-:root{
+:root {
     --sidebarColor: black;
-    --mainBoxColor:rgb(196, 101, 101);
-    --mainBox:black;
+    --mainBoxColor: rgb(196, 101, 101);
+    --mainBox: black;
 
     --dark_background: #474256;
     --dark_background_hover: #E9E4F8;
@@ -21,7 +21,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
-body{
+body {
     margin: 0;
     background-color: var(--background);
     color: var(--text);
@@ -29,12 +29,13 @@ body{
 
 }
 
-.title{
+.title {
     margin-top: 10px;
     margin-left: 10px;
     margin-bottom: 10px;
 
 }
+
 
 
 
@@ -54,6 +55,7 @@ body{
     justify-items: center;
 
 }
+
 
 .navop1{
     grid-area: navop1;
@@ -75,26 +77,26 @@ a:visited, a:link{
 
 a:hover{
     background-color: var(--background_hover);
-   
+
 }
 
 
 
 
-.content{
+.content {
     display: grid;
 
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 80vh;
 
 
-    grid-template-areas: 
-    "sidebar main"
-    "sidebar main";
+    grid-template-areas:
+        "sidebar main"
+        "sidebar main";
 
 }
 
-.sidebar{
+.sidebar {
     grid-area: sidebar;
     display: grid;
     grid-template-columns: 100%;
@@ -104,16 +106,15 @@ a:hover{
 
 }
 
-.main{
+.main {
     grid-area: main;
 }
 
-.sidebarBox{
+.sidebarBox {
     display: block;
     margin-left: 30px;
     margin-top: 30px;
 }
 
-h1{
+h1 {
     text-align: center;
-}
