@@ -7,3 +7,4 @@ function Nutz(){
     document.documentElement.style.cssText = "--text: #E9E4F8";
     document.body.style.cssText += "background-color: var(--dark_background);";
 }
+
