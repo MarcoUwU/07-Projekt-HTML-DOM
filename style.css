@@ -38,12 +38,21 @@ body{
 
 
 
-.nav{
-    height: 5vh; 
+.nav{ 
     width: 100vw;
     border-bottom: 1px solid var(--text);
     border-top: 1px solid var(--text);
-    }
+
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 0.5fr;
+    grid-template-rows: 6vh;
+
+    grid-template-areas: "filler1 navop1 navop2 navop3 navop4 filler2";
+    height: 6vh;
+
+    justify-content: center;
+
+}
 
 ul.options{
     list-style: none;
@@ -54,13 +63,29 @@ ul.options li{
     margin-left: 12%;
 
 }
-.navop{
-    margin-top: 10%;
-    padding: 16px 60px 15px 60px;
+.navop1{
+    grid-area: navop1;
+    text-align: center;
+
+}
+.navop2{
+    grid-area: navop2;
+    text-align: center;
+
+}
+.navop3{
+    grid-area: navop3;
+    text-align: center;
+
+
+}
+.navop4{
+    grid-area: navop4;
+    text-align: center;
 
 }
 
-ul li a:hover{
+a:hover{
     background-color: var(--background_hover);
    
 }
@@ -104,14 +129,3 @@ ul li a:hover{
 h1{
     text-align: center;
 }
-    
-@media only screen and (max-width: 1510px) {
-
-    .navop{
-        margin-top: 10%;
-        padding: 10px 40px 10px 40px;
-    
-    }
-
-}
-
